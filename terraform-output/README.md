@@ -186,7 +186,7 @@ jobs:
           path: my-terraform-config
 
       - name: Print the hostname
-        run: echo "The hostname is ${{ steps.tf-outputs.outputs.hostname }}"
+        run: echo "The hostname is ${{ steps.tf-outputs.outputs.service_hostname }}"
 ```
 
 ### Complex output
